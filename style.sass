@@ -1,0 +1,21 @@
+.hide,
+.show
+	position: relative
+	bottom: 0
+	right: 0
+	transition: opacity, width, height, transform .2s ease-out
+	animation: hide ease-in-out forwards 1
+
+.show
+	animation-direction: alternate-reverse
+
+@keyframes hide
+	to
+		width: 0
+		height: 0
+		opacity: 0
+		transform: scale(0)
+
+.active
+	/* active filter or sort button */
+
