@@ -3,7 +3,7 @@ Plugin for sorting and filtering items without reloading the page. Unlike most s
 - [x] Doesn`t affect the styling of elements.
 - [x] The Masonry effect, in most cases, can be achieved using the CSS Grid or Columns properties.
 
-[DEMO](https://aleksimagner.github.io/w/Demo/filter-elems/index.html "view code example")
+[DEMO](https://aleksimagner.github.io/w/Demo/filterElems/index.html "view code example")
 
 ## The following types of filter buttons are supported:
 * radio - select only one filter. Radio buttons or items with their imitation.
